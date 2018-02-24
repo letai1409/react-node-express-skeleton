@@ -1,0 +1,26 @@
+[
+  {
+    "code": "C1",
+    "name": "Topic C1",
+    "description":"Description for C1",
+    "category" : "general"
+  },
+  {
+    "code": "C2",
+    "name": "Topic C2",
+    "description":"Description for C2",
+    "category" : "general"
+  },
+  {
+    "code": "C3",
+    "name": "Topic C3",
+    "description":"Description for C3",
+    "category" : "organization"
+  },
+  {
+    "code": "C4",
+    "name":  "Topic C4",
+    "description":"Description for C4",
+    "category" : "organization"
+  }
+]

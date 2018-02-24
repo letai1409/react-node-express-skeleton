@@ -1,0 +1,37 @@
+{
+  "name": "my-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "babel-node server.js",
+    "test": "mocha --require babel-core/register --require babel-polyfill api/test/index.test.js --timeout 10000",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.18.0",
+    "co": "^4.6.0",
+    "express": "^4.15.3",
+    "express-http-context": "^0.3.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "mongodb": "^2.2.31",
+    "swagger-jsdoc": "^1.9.7",
+    "swagger-tools": "^0.10.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "mocha": "^4.0.1",
+    "webpack": "^3.8.1"
+  }
+}
